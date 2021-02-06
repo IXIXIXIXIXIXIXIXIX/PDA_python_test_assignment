@@ -25,21 +25,23 @@ class CardGame:
     else
       return False
    
-  # "def" is misspelled as "dif".
+  # "def" is misspelled as "dif" and comma required between "card1" and "card2".
   dif highest_card(self, card1 card2):
+  # The method body should be indented from the declaration.
   if card1.value > card2.value:
+    # There is no variable named "card"; this should be the parameter "card1"
     return card
   else:
     return card2
   
 
-
+# method should be indented from class declaration to be included in the class
 def cards_total(self, cards):
   # "total" is not initialised before it is used in the loop.
   total
   for card in cards:
     total += card.value
-    # Concatenation not possible between string and integer. 
+    # Concatenation not possible between string and integer and return should not be within loop body
     return "You have a total of" + total
   
 ```
